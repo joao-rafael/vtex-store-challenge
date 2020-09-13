@@ -3,7 +3,8 @@
     "blocks": [
       "rich-text#title",
       "info-card#button-left",
-      "info-card#button-right"
+      "info-card#button-right",
+      "shelf#homepage"
     ]
   },
   "rich-text#title": { 
@@ -39,5 +40,32 @@
       "callToActionUrl": "/sale/d",
       "textAlignment": "center"
     }
+  },
+  "shelf#homepage": {
+    "blocks": ["product-summary.shelf#homepage"],
+    "props": {
+      "category": 1,
+      "orderBy": "OrderByTopSaleDESC",
+      "paginationDotsVisibility": "desktopOnly",
+      "productList": {
+        "maxItems": 8,
+        "itemsPerPage": 4,
+        "minItemsPerPage": 1,
+        "scroll": "BY_PAGE",
+        "arrows": true,
+        "titleText": "Principais produtos"
+      }
+    }
+  },
+  "product-summary.shelf#homepage": {
+    "children": [
+      "product-summary-image",
+      "product-summary-add-to-list-button",
+      "product-summary-name",
+      "product-rating-inline",
+      "product-summary-space",
+      "product-summary-price",
+      "product-summary-buy-button"
+    ]
   }
 }
