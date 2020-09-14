@@ -9,7 +9,7 @@
   },
   "rich-text#title": { 
     "props": { 
-      "text": "Lojão das Batatas",
+      "text": "Potatoes Store",
       "textAlignment": "CENTER",
       "textPosition": "CENTER",
       "font": "t-heading-1"
@@ -20,10 +20,10 @@
       "isFullModeStyle": false,
       "textPosition": "left",
       "imageUrl": "https://img.freepik.com/free-photo/accessories-summer-holidays-top-view-background_144627-36935.jpg",
-      "headline": "Moda Praia 2020/2021",
-      "subhead": "Só aqui você consegue achar as principais marcas de biquines e maiôs de todos os tamanhos e que são mais tendência para este ano.",
+      "headline": "Summer Trends 2021",
+      "subhead": "Only here you can find the main brands of bikinis and swimsuits of all sizes and that are more trendy for next summer!",
       "callToActionMode": "button",
-      "callToActionText": "Explorar",
+      "callToActionText": "Explore",
       "callToActionUrl": "/sale/d",
       "textAlignment": "center"
     }
@@ -33,10 +33,10 @@
       "isFullModeStyle": false,
       "textPosition": "right",
       "imageUrl": "https://media.istockphoto.com/photos/scaled-up-look-on-business-woman-taking-off-high-heels-picture-id921780852?k=6&m=921780852&s=612x612&w=0&h=qoDPPeVX7beSqa_85MPqcBy9NY8tIujKZO8z9fB7umc=",
-      "headline": "Coleção Praza",
-      "subhead": "A melhor marca de sapatos de salto do mundo com descontos especiais você encontra por aqui.<br>Disponível até Outubro de 2020.",
+      "headline": "Praza Collection",
+      "subhead": "See our deals on products from world biggest shoe brand.<br>Due October 2020.",
       "callToActionMode": "link",
-      "callToActionText": "Ir para coleção",
+      "callToActionText": "See the Deals",
       "callToActionUrl": "/sale/d",
       "textAlignment": "center"
     }
@@ -53,7 +53,7 @@
         "minItemsPerPage": 1,
         "scroll": "BY_PAGE",
         "arrows": true,
-        "titleText": "Principais produtos"
+        "titleText": "Featured Products"
       }
     }
   },
