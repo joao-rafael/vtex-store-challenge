@@ -1,51 +1,26 @@
 {
     "footer": {
-      "blocks": ["footer-layout.desktop"]
+      "blocks": ["footer-layout.desktop", "footer-layout.mobile"]
     },
-    "footer-layout.desktop": {
+    "footer-layout.desktop": { 
       "children": [
-        "flex-layout.row#footer-1-desktop"
+        "flex-layout.row#footer"
       ]
     },
-    "flex-layout.row#footer-1-desktop": {
-        "children": [
-          "flex-layout.col#footer-left-desktop",
-          "flex-layout.col#footer-right-desktop"
-        ],
-        "props": {
-          "blockClass": "footer-row",
-          "paddingTop": 7,
-          "paddingBottom": 7
-        }
+    "footer-layout.mobile": { 
+      "children": [
+        "flex-layout.row#footer"
+      ]
     },
-
-    "flex-layout.col#footer-left-desktop":{
-        "children": [
-            "accepted-payment-methods"
-        ]
+    "flex-layout.row#footer": { 
+      "children": [
+        "image"
+      ]
     },
-
-    "flex-layout.col#footer-right-desktop":{
-        "children": [
-            "social-networks"
-        ]
-    },
-
-    "accepted-payment-methods":{
-        "props": {
-            "paymentMethods": ["masterCard", "visa", "diners club"],
-            "showInColor": true
-        }
-    },
-
-    "social-networks": {
-        "props": {
-            "socialNetworks": [
-                { "url": "https://facebook.com/foo", "name": "Facebook" },
-                { "url": "https://twitter.com/foo", "name": "Twitter" },
-                { "url": "https://instagram.com/foo", "name": "Instagram" }
-            ],
-            "showInColor": true
-        }
+    "image": {
+      "props": {
+        "width": 100,
+        "src": "https://brand.vtex.com/static/media/VTEX_pink_RGB.751a9fb5.svg"
+      }
     }
-}
+  }
