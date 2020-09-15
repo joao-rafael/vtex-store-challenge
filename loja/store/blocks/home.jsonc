@@ -22,9 +22,7 @@
       "imageUrl": "https://img.freepik.com/free-photo/accessories-summer-holidays-top-view-background_144627-36935.jpg",
       "headline": "Summer Trends 2021",
       "subhead": "Only here you can find the main brands of bikinis and swimsuits of all sizes and that are more trendy for next summer!",
-      "callToActionMode": "button",
-      "callToActionText": "Explore",
-      "callToActionUrl": "/sale/d",
+      "callToActionMode": "link",
       "textAlignment": "center"
     }
   },
@@ -36,8 +34,6 @@
       "headline": "Praza Collection",
       "subhead": "See our deals on products from world biggest shoe brand.<br>Due October 2020.",
       "callToActionMode": "link",
-      "callToActionText": "See the Deals",
-      "callToActionUrl": "/sale/d",
       "textAlignment": "center"
     }
   },
