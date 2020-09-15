@@ -3,8 +3,8 @@
     "blocks": [
       "rich-text#title",
       "info-card#button-left",
-      "info-card#button-right",
-      "shelf#homepage"
+      "shelf#homepage",
+      "info-card#button-right"
     ]
   },
   "rich-text#title": { 
