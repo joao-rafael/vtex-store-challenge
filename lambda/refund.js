@@ -21,8 +21,10 @@ const instance = axios.create({
 });
   
 module.exports.handler = async (event) => {
-  const id = event.currentIntent.slots['OrderID'];
-  const confirmation = event.currentIntent.slots['Confirmation'];
+  const slots = event.currentIntent.slots
+  const intentName = event.currentIntent.name;
+  const id = slots['OrderID'];
+  const confirmation = slots['Confirmation'];
   
   if (confirmation === "no" || id === 'exit') {
     const message = "Ok, I'm cancelling your request. I'll be here if you need me! :)";
@@ -60,10 +62,11 @@ module.exports.handler = async (event) => {
         const errorMessage = error.response.data.error.message;
         const errorStatus = error.response.status;
         message = errorMessage === errorRefund ? "Hmm... It seems that this order has already been refunded :)" : message;
-        message = errorMessage === errorNotInvoiced ? "Sorry, this order hasn`t been invoiced yet. Try again later" : message;
+        message = errorMessage === errorNotInvoiced ? "Sorry, this order hasn`t been invoiced yet. Try again later :/" : message;
         
         if (errorStatus === 404) {
-          return elicit_slot("I'm not able to find your Order ID. Did you typed it correctly? Try again or type 'exit' to cancel.", "OrderID");
+          const message = "I'm not able to find your Order ID. Did you typed it correctly? Try again or type 'exit' to cancel.";
+          return elicit_slot(message, intentName, slots, "OrderID");
         }
       }
       
@@ -77,25 +80,25 @@ function close(message, fulfillmentState) {
     dialogAction: {
       type: "Close",
       fulfillmentState,
-        message: {
-            contentType: "PlainText",
-            content: message
-        }
+      message: {
+        contentType: "PlainText",
+        content: message
+      }
     }
   };
 }
 
-function elicit_slot(message, slotToElicit) {
+function elicit_slot(message, intentName, slots, slotToElicit) {
   return {
     dialogAction: {
-      "type": "ElicitSlot",
-      "message": {
-        "contentType": "PlainText",
-        "content": message
+      type: "ElicitSlot",
+      message: {
+        contentType: "PlainText",
+        content: message
       },
-      "intentName": event.currentIntent.name,
-      "slots": event.currentIntent.slots,
-      "slotToElicit": slotToElicit
+      intentName,
+      slots,
+      slotToElicit
     }
   };
 }
