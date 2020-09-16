@@ -1,9 +1,9 @@
 # Vtex Store Challenge :department_store: - Chatbot :robot:
 
 This repo hosts the following items:
-  * the code for lambda functions and integration with VTEX's API(lambda);
-  * a simples vtex store(loja);
-  * vtex store block component(store-block); 
+  * The code for lambda functions and integration with VTEX's API (lambda);
+  * A simple vtex store (loja);
+  * VTEX store block component (store-block); 
 
 It uses JSON for composing Blocks and UI, JS for integration with AWS Lex bot; 
 
@@ -45,10 +45,15 @@ Select DEV workspace ```vtex use dev```; <br>
 Mess with the bot XD;
 
 ## Screenshots and flow:
-Chatbox at the store:
+### Chatbox at the store:
 ![Screenshot](/Loja_com_bot_aberto.png)
-Bot flow:
+
+### Architecture:
+![Architecture](/Arquitetura.PNG)
+
+### Bot flow:
 ![Bot flow](/Fluxograma_do_Bot.jpg)
+
 ## License
 
 This is an open-source project under the MIT License - this means that you can use this project, change it, sell it, merge... But no Warranty is guaranteed. Use it on your own. 
