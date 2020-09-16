@@ -43,6 +43,11 @@ Log in to your store ```yourdomain.vtex.com```; <br/>
 Select DEV workspace ```vtex use dev```;
 Mess with the bot XD;
 
+## Screenshots and flow:
+Chatbox at the store:
+![Screenshot](/Loja_com_bot_aberto.png)
+Bot flow:
+![Bot flow](/Fluxograma_do_Bot.png)
 ## License
 
 This is an open-source project under the MIT License - this means that you can use this project, change it, sell it, merge... But no Warranty is guaranteed. Use it on your own. 
