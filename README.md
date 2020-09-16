@@ -34,10 +34,10 @@ The goal of the project is to deliver a chatbot that offers to troubleshoot for 
 Once in the store, click on the bubble from the bottom-right screen corner. 
 
 ## How to run the project
-#1 Git clone this repository; <br>
-#2 Make sure that you have the VTEX CLI installed and configured;  <br>
-#3 Inside the 'loja' folder, execute ```vtex use dev```;  <br>
-#4 Execute ```vtex link```; <br>
+1. Git clone this repository; <br>
+2. Make sure that you have the VTEX CLI installed and configured;  <br>
+3. Inside the 'loja' folder, execute ```vtex use dev```;  <br>
+4. Execute ```vtex link```; <br>
 
 Log in to your store ```yourdomain.vtex.com```; <br/>
 Select DEV workspace ```vtex use dev```;
