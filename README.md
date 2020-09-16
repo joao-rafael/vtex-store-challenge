@@ -14,7 +14,18 @@ It uses JSON for composing Blocks and UI, JS for integration with AWS Lex bot;
 * AWS Lex (for the chatbot);
 
 ## Team: 
-[Alexandre Dias]()
+[Alexandre Dias](https://www.linkedin.com/in/alexandrepdias/); <br>
+[Ana Carolina](https://www.linkedin.com/in/anacarolinagon%C3%A7alves/); <br>
+[Fabrício Alexandre](https://www.linkedin.com/in/fabalexsantos/); <br>
+[Felipe Fadul](https://www.linkedin.com/in/fabalexsantos/); <br>
+[João Rafael](https://www.linkedin.com/in/joao-rafael-silva/); <br>
+[Karen Nayara](https://www.linkedin.com/in/karenngomes/); <br>
+[Mariana Medeiros](https://www.linkedin.com/in/marianafmedeiros/); <br>
+[Rallyson Diogo](https://www.linkedin.com/in/rallysson/); <br>
+[Tanívia Timbó](https://www.linkedin.com/in/tanivia/); <br>
+[Thalita Colofatti](https://www.linkedin.com/in/thalitaacb/); <br>
+
+
 ## Problem:
 
 The goal of the project is to deliver a chatbot that offers to troubleshoot for customer claims about previous orders.
@@ -23,10 +34,10 @@ The goal of the project is to deliver a chatbot that offers to troubleshoot for 
 Once in the store, click on the bubble from the bottom-right screen corner. 
 
 ## How to run the project
-#1 Git clone this repository;
-#2 Make sure that you have the VTEX CLI installed and configured;
-#3 Inside the 'loja' folder, execute ```vtex use dev```; 
-#4 Execute ```vtex link```;
+#1 Git clone this repository; <br>
+#2 Make sure that you have the VTEX CLI installed and configured;  <br>
+#3 Inside the 'loja' folder, execute ```vtex use dev```;  <br>
+#4 Execute ```vtex link```; <br>
 
 Log in to your store ```yourdomain.vtex.com```; <br/>
 Select DEV workspace ```vtex use dev```;
