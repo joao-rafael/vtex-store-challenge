@@ -8,23 +8,23 @@ This repo hosts the following items:
 It uses JSON for composing Blocks and UI, JS for integration with AWS Lex bot; 
 
 ## Used Technologies:
-* Javascript;
-* JSON;
-* React (for the store block component);
-* AWS Lex (for the chatbot);
+* Javascript
+* JSON
+* React (for the store block component)
+* AWS Lex (for the chatbot)
 * AWS Lambda
 
 ## Team: 
-* [Alexandre Dias](https://www.linkedin.com/in/alexandrepdias/); <br>
-* [Ana Carolina](https://www.linkedin.com/in/anacarolinagon%C3%A7alves/); <br>
-* [Fabrício Alexandre](https://www.linkedin.com/in/fabalexsantos/); <br>
-* [Felipe Fadul](https://www.linkedin.com/in/felipefadul/); <br>
-* [João Rafael](https://www.linkedin.com/in/joao-rafael-silva/); <br>
-* [Karen Gomes](https://www.linkedin.com/in/karenngomes/); <br>
-* [Mariana Medeiros](https://www.linkedin.com/in/marianafmedeiros/); <br>
-* [Rallyson Diogo](https://www.linkedin.com/in/rallysson/); <br>
-* [Tanívia Timbó](https://www.linkedin.com/in/tanivia/); <br>
-* [Thalita Colofatti](https://www.linkedin.com/in/thalitaacb/); <br>
+* [Alexandre Dias](https://www.linkedin.com/in/alexandrepdias/) <br>
+* [Ana Carolina](https://www.linkedin.com/in/anacarolinagon%C3%A7alves/) <br>
+* [Fabrício Alexandre](https://www.linkedin.com/in/fabalexsantos/) <br>
+* [Felipe Fadul](https://www.linkedin.com/in/felipefadul/) <br>
+* [João Rafael](https://www.linkedin.com/in/joao-rafael-silva/) <br>
+* [Karen Gomes](https://www.linkedin.com/in/karenngomes/) <br>
+* [Mariana Medeiros](https://www.linkedin.com/in/marianafmedeiros/) <br>
+* [Rallyson Diogo](https://www.linkedin.com/in/rallysson/) <br>
+* [Tanívia Timbó](https://www.linkedin.com/in/tanivia/) <br>
+* [Thalita Colofatti](https://www.linkedin.com/in/thalitaacb/) <br>
 
 
 ## Problem:
@@ -45,10 +45,12 @@ Select DEV workspace ```vtex use dev```; <br>
 Mess with the bot XD;
 
 ## Screenshots and flow:
-### Chatbox at the store:
+### Store:
 ![Screenshot](/Loja_com_bot_aberto.png)
-
-![Screenshot](/Potatobot.gif)
+### Chatbot:
+<p align="center">
+  <img alt="chatbot" width="400px" src="/Potatobot.gif" />
+<p>
 
 ### Architecture:
 ![Architecture](/Arquitetura.PNG)
