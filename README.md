@@ -17,7 +17,7 @@ It uses JSON for composing Blocks and UI, JS for integration with AWS Lex bot;
 [Alexandre Dias](https://www.linkedin.com/in/alexandrepdias/); <br>
 [Ana Carolina](https://www.linkedin.com/in/anacarolinagon%C3%A7alves/); <br>
 [Fabrício Alexandre](https://www.linkedin.com/in/fabalexsantos/); <br>
-[Felipe Fadul](https://www.linkedin.com/in/fabalexsantos/); <br>
+[Felipe Fadul](https://www.linkedin.com/in/felipefadul/); <br>
 [João Rafael](https://www.linkedin.com/in/joao-rafael-silva/); <br>
 [Karen Gomes](https://www.linkedin.com/in/karenngomes/); <br>
 [Mariana Medeiros](https://www.linkedin.com/in/marianafmedeiros/); <br>
