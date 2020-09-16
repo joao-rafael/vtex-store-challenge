@@ -14,16 +14,16 @@ It uses JSON for composing Blocks and UI, JS for integration with AWS Lex bot;
 * AWS Lex (for the chatbot);
 
 ## Team: 
-[Alexandre Dias](https://www.linkedin.com/in/alexandrepdias/); <br>
-[Ana Carolina](https://www.linkedin.com/in/anacarolinagon%C3%A7alves/); <br>
-[Fabrício Alexandre](https://www.linkedin.com/in/fabalexsantos/); <br>
-[Felipe Fadul](https://www.linkedin.com/in/felipefadul/); <br>
-[João Rafael](https://www.linkedin.com/in/joao-rafael-silva/); <br>
-[Karen Gomes](https://www.linkedin.com/in/karenngomes/); <br>
-[Mariana Medeiros](https://www.linkedin.com/in/marianafmedeiros/); <br>
-[Rallyson Diogo](https://www.linkedin.com/in/rallysson/); <br>
-[Tanívia Timbó](https://www.linkedin.com/in/tanivia/); <br>
-[Thalita Colofatti](https://www.linkedin.com/in/thalitaacb/); <br>
+* [Alexandre Dias](https://www.linkedin.com/in/alexandrepdias/); <br>
+* [Ana Carolina](https://www.linkedin.com/in/anacarolinagon%C3%A7alves/); <br>
+* [Fabrício Alexandre](https://www.linkedin.com/in/fabalexsantos/); <br>
+* [Felipe Fadul](https://www.linkedin.com/in/felipefadul/); <br>
+* [João Rafael](https://www.linkedin.com/in/joao-rafael-silva/); <br>
+* [Karen Gomes](https://www.linkedin.com/in/karenngomes/); <br>
+* [Mariana Medeiros](https://www.linkedin.com/in/marianafmedeiros/); <br>
+* [Rallyson Diogo](https://www.linkedin.com/in/rallysson/); <br>
+* [Tanívia Timbó](https://www.linkedin.com/in/tanivia/); <br>
+* [Thalita Colofatti](https://www.linkedin.com/in/thalitaacb/); <br>
 
 
 ## Problem:
