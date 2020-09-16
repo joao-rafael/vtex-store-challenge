@@ -1,14 +1,15 @@
 {
-  "store.home": { 
+  "store.home": {
     "blocks": [
       "rich-text#title",
       "info-card#button-left",
       "shelf#homepage",
-      "info-card#button-right"
+      "info-card#button-right",
+      "countdown"
     ]
   },
-  "rich-text#title": { 
-    "props": { 
+  "rich-text#title": {
+    "props": {
       "text": "Potatoes Store",
       "textAlignment": "CENTER",
       "textPosition": "CENTER",
