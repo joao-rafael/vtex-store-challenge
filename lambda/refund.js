@@ -16,8 +16,7 @@ const headers = {
 
 const instance = axios.create({
   baseURL,
-  headers,
-  timeout: 1000
+  headers
 });
   
 module.exports.handler = async (event) => {

@@ -12,6 +12,7 @@ It uses JSON for composing Blocks and UI, JS for integration with AWS Lex bot;
 * JSON;
 * React (for the store block component);
 * AWS Lex (for the chatbot);
+* AWS Lambda
 
 ## Team: 
 * [Alexandre Dias](https://www.linkedin.com/in/alexandrepdias/); <br>
