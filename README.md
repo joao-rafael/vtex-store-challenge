@@ -48,6 +48,8 @@ Mess with the bot XD;
 ### Chatbox at the store:
 ![Screenshot](/Loja_com_bot_aberto.png)
 
+![Screenshot](/Potatobot.gif)
+
 ### Architecture:
 ![Architecture](/Arquitetura.PNG)
 
