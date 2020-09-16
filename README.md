@@ -40,7 +40,7 @@ Once in the store, click on the bubble from the bottom-right screen corner.
 4. Execute ```vtex link```; <br>
 
 Log in to your store ```yourdomain.vtex.com```; <br/>
-Select DEV workspace ```vtex use dev```;
+Select DEV workspace ```vtex use dev```; <br>
 Mess with the bot XD;
 
 ## Screenshots and flow:
