@@ -1,6 +1,8 @@
-# Vtex Store Challenge
+# Vtex Store Challenge :department_store: - Gama Chatbot :robot:
 
-This repo hosts a VTEX Store Application;
+This repo hosts the following items:
+  * a simples vtex store;
+  * the code for lambda functions;
 It uses JSON for coposing Blocks and UI; 
 
 ## How to run the project
