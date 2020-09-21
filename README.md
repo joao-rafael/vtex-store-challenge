@@ -45,18 +45,18 @@ Once in the store, click on the bubble from the bottom-right screen corner.
 
 ## Screenshots and flow
 ### Store:
-![Screenshot](/Loja_com_bot_aberto.png)
+![Screenshot](/assets/Loja_com_bot_aberto.png)
 
 ### Chatbot:
 <p align="center">
-  <img alt="chatbot" width="400px" src="/Potatobot.gif" />
+  <img alt="chatbot" width="400px" src="/assets/Potatobot.gif" />
 <p>
 
 ### Architecture:
-![Architecture](/Arquitetura.PNG)
+![Architecture](/assets/Arquitetura.PNG)
 
 ### Bot flow:
-![Bot flow](/Fluxograma_do_Bot.jpg)
+![Bot flow](/assets/Fluxograma_do_Bot.jpg)
 
 ## License
 
