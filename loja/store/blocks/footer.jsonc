@@ -19,9 +19,8 @@
     },
     "image": {
       "props": {
-        "width": "428",
-        "src": "../../assets/logo2.svg",
-        "align": "center"
+        "minWidth": "20vw",
+        "src": "../assets/logo2.png"
       }
     }
   }

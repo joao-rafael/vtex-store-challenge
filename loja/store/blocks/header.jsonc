@@ -22,6 +22,7 @@
       "verticalAlign": "center",
       "preventHorizontalStretch": true,
       "preventVerticalStretch": true,
+      "height": "100px",
       "fullWidth": true
     },
     "children": [
@@ -47,8 +48,8 @@
     "props": {
       "title": "Logo",
       "href": "/",
-      "src": "../../assets/logo2.svg",
-      "width": "100%"
+      "src": "../assets/logomini.png",
+      "width": "25vw"
     }
   },
   "header-layout.mobile": {
