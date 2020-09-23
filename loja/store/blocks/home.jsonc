@@ -1,25 +1,137 @@
 {
   "store.home": {
     "blocks": [
-      "rich-text#title",
-      "info-card#button-left",
+      "flex-layout.row#firstmosaic",
+      "flex-layout.row#secondmosaic",
       "shelf#homepage",
+      "info-card#button-left",
       "info-card#button-right",
       "countdown"
     ]
   },
-  "rich-text#title": {
+  "flex-layout.row#firstmosaic": {
     "props": {
-      "text": "Potatoes Store",
-      "textAlignment": "CENTER",
-      "textPosition": "CENTER",
-      "font": "t-heading-1"
+      "marginTop": 6,
+      "marginLeft": 6,
+      "marginRight": 6
+    },
+    "children": [
+      "flex-layout.col#left1",
+      "flex-layout.col#right1"
+    ]
+  },
+  "flex-layout.col#left1": {
+    "children": [
+      "image#swimwear"
+    ]
+  },
+  "flex-layout.col#right1": {
+    "props": {
+      "marginLeft": 6
+    },
+    "children": [
+      "flex-layout.row#sub1",
+      "flex-layout.row#sub2"
+    ]
+  },
+  "flex-layout.row#sub1": {
+    "props": {
+      "marginTop": 6
+    },
+    "children": [
+      "image#men"
+    ]
+  },
+  "flex-layout.row#sub2": {
+    "props": {
+      "marginTop": 6
+    },
+    "children": [
+      "image#women"
+    ]
+  },
+  "flex-layout.row#secondmosaic": {
+    "props": {
+      "marginTop": 6,
+      "marginLeft": 6,
+      "marginRight": 6
+    },
+    "children": [
+      "flex-layout.col#left2",
+      "flex-layout.col#right2"
+    ]
+  },
+  "flex-layout.col#left2": {
+    "props": {
+      "marginRight": 6
+    },
+    "children": [
+      "flex-layout.row#sub3",
+      "flex-layout.row#sub4"
+    ]
+  },
+  "flex-layout.row#sub3": {
+    "props": {
+      "height": "50%"
+    },
+    "children": [
+      "image#extra"
+    ]
+  },
+  "flex-layout.row#sub4": {
+    "props": {
+      "marginTop": 6,
+      "height": "50%"
+    },
+    "children": [
+      "image#accessories"
+    ]
+  },
+  "flex-layout.col#right2": {
+    "children": [
+      "image#promwear"
+    ]
+  },
+  "image#swimwear": { 
+    "props": { 
+      "minWidth": "100%",
+      "src": "https://img.freepik.com/free-photo/accessories-summer-holidays-top-view-background_144627-36935.jpg"
+    }
+  },
+  "image#men": { 
+    "props": { 
+      "minWidth": "100%",
+      "src": "https://img.freepik.com/free-photo/accessories-summer-holidays-top-view-background_144627-36935.jpg"
+    }
+  },
+  "image#women": { 
+    "props": { 
+      "minWidth": "100%",
+      "src": "https://img.freepik.com/free-photo/accessories-summer-holidays-top-view-background_144627-36935.jpg"
+    }
+  },
+  "image#extra": { 
+    "props": { 
+      "minWidth": "100%",
+      "src": "https://img.freepik.com/free-photo/accessories-summer-holidays-top-view-background_144627-36935.jpg"
+    }
+  },
+  "image#accessories": { 
+    "props": { 
+      "minWidth": "100%",
+      "src": "https://img.freepik.com/free-photo/accessories-summer-holidays-top-view-background_144627-36935.jpg"
+    }
+  },
+  "image#promwear": { 
+    "props": { 
+      "minWidth": "100%",
+      "src": "https://img.freepik.com/free-photo/accessories-summer-holidays-top-view-background_144627-36935.jpg"
     }
   },
   "info-card#button-left": {
     "props": {
-      "isFullModeStyle": false,
-      "textPosition": "left",
+      "isFullModeStyle": true,
+      "textPosition": "center",
       "imageUrl": "https://img.freepik.com/free-photo/accessories-summer-holidays-top-view-background_144627-36935.jpg",
       "headline": "Summer Trends 2021",
       "subhead": "Only here you can find the main brands of bikinis and swimsuits of all sizes and that are more trendy for next summer!",
