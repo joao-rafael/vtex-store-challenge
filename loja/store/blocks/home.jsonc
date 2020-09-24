@@ -4,7 +4,8 @@
       "rich-text#title",
       "info-card#button-left",
       "shelf#homepage",
-      "info-card#button-right"
+      "info-card#button-right",
+      "chatbot"
     ]
   },
   "rich-text#title": {
