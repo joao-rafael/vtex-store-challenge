@@ -4,8 +4,7 @@
       "rich-text#title",
       "info-card#button-left",
       "shelf#homepage",
-      "info-card#button-right",
-      "countdown"
+      "info-card#button-right"
     ]
   },
   "rich-text#title": {
