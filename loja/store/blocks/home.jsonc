@@ -1,41 +1,124 @@
 {
   "store.home": {
     "blocks": [
-      "rich-text#title",
-      "info-card#button-left",
+      "flex-layout.row#firstmosaic",
+      "flex-layout.row#secondmosaic",
       "shelf#homepage",
-      "info-card#button-right",
       "chatbot"
     ]
   },
-  "rich-text#title": {
+  "flex-layout.row#firstmosaic": {
     "props": {
-      "text": "Potatoes Store",
-      "textAlignment": "CENTER",
-      "textPosition": "CENTER",
-      "font": "t-heading-1"
+      "marginLeft": 50,
+      "marginRight": 50,
+      "marginTop": 6,
+      "height": "50vh"
+    },
+    "children": ["flex-layout.col#left1", "flex-layout.col#right1"]
+  },
+  "flex-layout.col#left1": {
+    "props": {
+      "marginLeft": 8
+    },
+    "children": ["image#swimwear"]
+  },
+  "flex-layout.col#right1": {
+    "props": {
+      "marginLeft": 6,
+      "marginRight": 8
+    },
+    "children": ["flex-layout.row#sub1", "flex-layout.row#sub2"]
+  },
+  "flex-layout.row#sub1": {
+    "props": {
+      "marginBottom": 3,
+      "height": "22vh"
+    },
+    "children": ["image#men"]
+  },
+  "flex-layout.row#sub2": {
+    "props": {
+      "marginTop": 3,
+      "height": "22vh"
+    },
+    "children": ["image#women"]
+  },
+  "flex-layout.row#secondmosaic": {
+    "props": {
+      "marginLeft": 50,
+      "marginRight": 50,
+      "marginTop": 6,
+      "height": "50vh"
+    },
+    "children": ["flex-layout.col#left2", "flex-layout.col#right2"]
+  },
+  "flex-layout.col#left2": {
+    "props": {
+      "marginRight": 6,
+      "marginLeft": 8
+    },
+    "children": ["flex-layout.row#sub3", "flex-layout.row#sub4"]
+  },
+  "flex-layout.row#sub3": {
+    "props": {
+      "marginBottom": 3,
+      "height": "22vh"
+    },
+    "children": ["image#extra"]
+  },
+  "flex-layout.row#sub4": {
+    "props": {
+      "marginTop": 3,
+      "height": "22vh"
+    },
+    "children": ["image#accessories"]
+  },
+  "flex-layout.col#right2": {
+    "props": {
+      "marginRight": 8
+    },
+    "children": ["image#promwear"]
+  },
+  "image#swimwear": {
+    "props": {
+      "minWidth": "100%",
+      "height": "50vh",
+      "src": "https://img.freepik.com/free-photo/accessories-summer-holidays-top-view-background_144627-36935.jpg"
     }
   },
-  "info-card#button-left": {
+  "image#men": {
     "props": {
-      "isFullModeStyle": false,
-      "textPosition": "left",
-      "imageUrl": "https://img.freepik.com/free-photo/accessories-summer-holidays-top-view-background_144627-36935.jpg",
-      "headline": "Summer Trends 2021",
-      "subhead": "Only here you can find the main brands of bikinis and swimsuits of all sizes and that are more trendy for next summer!",
-      "callToActionMode": "link",
-      "textAlignment": "center"
+      "minWidth": "100%",
+      "height": "23.7vh",
+      "src": "https://img.freepik.com/free-photo/accessories-summer-holidays-top-view-background_144627-36935.jpg"
     }
   },
-  "info-card#button-right": {
+  "image#women": {
     "props": {
-      "isFullModeStyle": false,
-      "textPosition": "right",
-      "imageUrl": "https://media.istockphoto.com/photos/scaled-up-look-on-business-woman-taking-off-high-heels-picture-id921780852?k=6&m=921780852&s=612x612&w=0&h=qoDPPeVX7beSqa_85MPqcBy9NY8tIujKZO8z9fB7umc=",
-      "headline": "Praza Collection",
-      "subhead": "See our deals on products from world biggest shoe brand.<br>Due October 2020.",
-      "callToActionMode": "link",
-      "textAlignment": "center"
+      "minWidth": "100%",
+      "height": "23.7vh",
+      "src": "https://img.freepik.com/free-photo/accessories-summer-holidays-top-view-background_144627-36935.jpg"
+    }
+  },
+  "image#extra": {
+    "props": {
+      "minWidth": "100%",
+      "height": "23.7vh",
+      "src": "https://img.freepik.com/free-photo/accessories-summer-holidays-top-view-background_144627-36935.jpg"
+    }
+  },
+  "image#accessories": {
+    "props": {
+      "minWidth": "100%",
+      "height": "23.7vh",
+      "src": "https://img.freepik.com/free-photo/accessories-summer-holidays-top-view-background_144627-36935.jpg"
+    }
+  },
+  "image#promwear": {
+    "props": {
+      "minWidth": "100%",
+      "height": "50vh",
+      "src": "https://images.unsplash.com/photo-1447194537595-69d5dd826707?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1050&"
     }
   },
   "shelf#homepage": {
