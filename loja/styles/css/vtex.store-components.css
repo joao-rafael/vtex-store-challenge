@@ -6,3 +6,7 @@
 .infoCardContainer--infoFull {
     height: 100%;
 }
+.imageElementLink--logoMaior{
+    display: contents;
+}
+
