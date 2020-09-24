@@ -3,15 +3,14 @@
     "blocks": [
       "flex-layout.row#firstmosaic",
       "flex-layout.row#secondmosaic",
-      "shelf#homepage",
-      "countdown"
+      "shelf#homepage"
     ]
   },
   "flex-layout.row#firstmosaic": {
     "props": {
       "marginLeft": 50,
       "marginRight": 50,
-      "marginTop": 6,
+      "marginTop": 4,
       "height": "50vh"
     },
     "children": [
@@ -21,45 +20,58 @@
   },
   "flex-layout.col#left1": {
     "props": {
-      "marginLeft": 8
+      "marginLeft": 8,
+      "height": "100vh"
     },
     "children": [
-      "image#swimwear"
+      "info-card#swim"
     ]
+  },
+  "info-card#swim": {
+    "props": {
+      "imageUrl": "https://images.unsplash.com/photo-1519046904884-53103b34b206?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1050&q=80",
+      "isFullModeStyle": true,
+      "headline": "swimwear",
+      "callToActionMode": "link",
+      "textPosition": "center",
+      "link": "/swimwear",
+      "blockClass": "infoFull"
+    }
   },
   "flex-layout.col#right1": {
     "props": {
-      "marginLeft": 6,
       "marginRight": 8
     },
     "children": [
-      "flex-layout.row#sub1",
-      "flex-layout.row#sub2"
+      "info-card#men",
+      "info-card#women"
     ]
   },
-  "flex-layout.row#sub1": {
+  "info-card#men":{
     "props": {
-      "marginBottom": 3,
-      "height": "22vh"
-    },
-    "children": [
-      "image#men"
-    ]
+      "imageUrl": "https://images.unsplash.com/photo-1496346776741-7297b9e34825?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1050&q=80",
+      "isFullModeStyle": true,
+      "headline": "men",
+      "callToActionMode": "link",
+      "textPosition": "center",
+      "link": "/men"
+    }
   },
-  "flex-layout.row#sub2": {
+  "info-card#women":{
     "props": {
-      "marginTop": 3,
-      "height": "22vh"
-    },
-    "children": [
-      "image#women"
-    ]
+      "imageUrl": "https://images.unsplash.com/photo-1496817763416-2f4494189b95?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=2032&q=80",
+      "isFullModeStyle": true,
+      "headline": "women",
+      "callToActionMode": "link",
+      "textPosition": "center",
+      "link": "/women"
+    }
   },
   "flex-layout.row#secondmosaic": {
     "props": {
       "marginLeft": 50,
       "marginRight": 50,
-      "marginTop": 6,
+      "marginBottom": 6,
       "height": "50vh"
     },
     "children": [
@@ -69,80 +81,50 @@
   },
   "flex-layout.col#left2": {
     "props": {
-      "marginRight": 6,
       "marginLeft": 8
     },
     "children": [
-      "flex-layout.row#sub3",
-      "flex-layout.row#sub4"
+      "info-card#extra",
+      "info-card#accessories"
     ]
   },
-  "flex-layout.row#sub3": {
+  "info-card#extra":{
     "props": {
-      "marginBottom": 3,
-      "height": "22vh"
-    },
-    "children": [
-      "image#extra"
-    ]
+      "imageUrl": "https://images.unsplash.com/photo-1496950866446-3253e1470e8e?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1050&q=80",
+      "isFullModeStyle": true,
+      "headline": " ",
+      "callToActionMode": "link",
+      "textPosition": "center",
+      "link": "/extra"
+    }
   },
-  "flex-layout.row#sub4": {
+  "info-card#accessories":{
     "props": {
-      "marginTop": 3,
-      "height": "22vh"
-    },
-    "children": [
-      "image#accessories"
-    ]
+      "imageUrl": "https://images.unsplash.com/photo-1574271143515-5cddf8da19be?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=966&q=80",
+      "isFullModeStyle": true,
+      "headline": "accessories",
+      "callToActionMode": "link",
+      "textPosition": "center",
+      "link": "/accessories"
+    }
   },
   "flex-layout.col#right2": {
     "props": {
       "marginRight": 8
     }, 
     "children": [
-      "image#promwear"
+      "info-card#promwear"
     ]
   },
-  "image#swimwear": { 
-    "props": { 
-      "minWidth": "100%",
-      "height": "50vh",
-      "src": "https://img.freepik.com/free-photo/accessories-summer-holidays-top-view-background_144627-36935.jpg"
-    }
-  },
-  "image#men": { 
-    "props": { 
-      "minWidth": "100%",
-      "height": "23.7vh",
-      "src": "https://img.freepik.com/free-photo/accessories-summer-holidays-top-view-background_144627-36935.jpg"
-    }
-  },
-  "image#women": { 
-    "props": { 
-      "minWidth": "100%",
-      "height": "23.7vh",
-      "src": "https://img.freepik.com/free-photo/accessories-summer-holidays-top-view-background_144627-36935.jpg"
-    }
-  },
-  "image#extra": { 
-    "props": { 
-      "minWidth": "100%",
-      "height": "23.7vh",
-      "src": "https://img.freepik.com/free-photo/accessories-summer-holidays-top-view-background_144627-36935.jpg"
-    }
-  },
-  "image#accessories": { 
-    "props": { 
-      "minWidth": "100%",
-      "height": "23.7vh",
-      "src": "https://img.freepik.com/free-photo/accessories-summer-holidays-top-view-background_144627-36935.jpg"
-    }
-  },
-  "image#promwear": { 
-    "props": { 
-      "minWidth": "100%",
-      "height": "50vh",
-      "src": "https://images.unsplash.com/photo-1447194537595-69d5dd826707?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1050&"
+  "info-card#promwear":{
+    "props": {
+      "imageUrl": "https://images.unsplash.com/photo-1447194537595-69d5dd826707?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1050&",
+      "isFullModeStyle": true,
+      "headline": "promwear",
+      "callToActionMode": "link",
+      "textPosition": "center",
+      "link": "/promwear",
+      "blockClass": "infoFull"
     }
   },
   "shelf#homepage": {

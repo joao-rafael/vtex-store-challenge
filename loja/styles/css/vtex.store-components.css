@@ -1,0 +1,8 @@
+.infoCardHeadline {
+    border: none;
+    font-family: Comfortaa, sans-serif;
+    color: #ffffff;
+}
+.infoCardContainer--infoFull {
+    height: 100%;
+}

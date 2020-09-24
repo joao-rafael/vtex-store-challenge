@@ -14,10 +14,15 @@
     },
     "flex-layout.row#footer": { 
       "children": [
-        "image"
+        "flex-layout.col#logo"
       ]
     },
-    "image": {
+    "flex-layout.col#logo": {
+      "children": [
+        "image#logomaior"
+      ]
+    },
+    "image#logomaior": {
       "props": {
         "minWidth": "20vw",
         "src": "../assets/logo2.png"
