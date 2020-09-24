@@ -29,7 +29,7 @@
   "product-brand": {
     "props": {
       "displayMode": "logo",
-      "height": 30
+      "height": 50
     }
   },
   "flex-layout.col#right": {

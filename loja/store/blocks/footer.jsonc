@@ -19,8 +19,8 @@
     },
     "image": {
       "props": {
-        "width": 100,
-        "src": "https://brand.vtex.com/static/media/VTEX_pink_RGB.751a9fb5.svg"
+        "minWidth": "20vw",
+        "src": "../assets/logo2.png"
       }
     }
   }
