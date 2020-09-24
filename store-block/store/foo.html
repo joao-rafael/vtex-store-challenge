@@ -1,0 +1,47 @@
+<html>
+  <head>
+    <title>My Parent Page</title>
+  </head>
+  <body>
+    <h1>Welcome to my parent page</h1>
+    <!-- loader script -->
+    <script src="./lex-web-ui-loader.js"></script>
+    <script>
+      /*
+        The loader library creates a global object named ChatBotUiLoader
+        It includes the IframeLoader constructor
+        An instance of IframeLoader has the load function which kicks off
+        the load process
+      */
+
+      // options for the loader constructor
+      var loaderOptions = {
+        // you can put the chatbot UI config in a JSON file
+        configUrl: "./chatbot-ui-loader-config.json",
+
+        // the full page chatbot UI that will be iframed
+        // iframeSrcPath: "./chatbot-index.html#/?lexWebUiEmbed=true",
+      };
+
+      // The following statement instantiates the IframeLoader
+      var iframeLoader = new ChatBotUiLoader.IframeLoader(loaderOptions);
+
+      // chatbot UI config
+      // The loader can also obtain these values from other sources such
+      // as a JSON file or events. The configUrl variable in the
+      // loaderOptions above can be used to put these config values in a file
+      // instead of explicitly passing it as an argument.
+
+      // Call the load function which returns a promise that is resolved
+      // once the component is loaded or is rejected if there is an error
+      iframeLoader
+        .load()
+        .then(function () {
+          console.log("iframe loaded");
+        })
+        .catch(function (err) {
+          console.error(err);
+        });
+    </script>
+  </body>
+</html>
