@@ -60,5 +60,5 @@ Once in the store, click on the bubble from the bottom-right screen corner.
 
 ## License
 
-This is an open-source project under the MIT License - this means that you can use this project, change it, sell it, merge... But no Warranty is guaranteed. Use it on your own. 
+This is an open-source project under the MIT License - this means that you can use this project, change it, sell it, merge... But no Warranty is guaranteed. Use it on your own
 
