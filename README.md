@@ -45,7 +45,8 @@ Once in the store, click on the bubble from the bottom-right screen corner.
 
 ## Screenshots and flow
 ### Store:
-![Screenshot](/assets/Loja_com_bot_aberto.png)
+![Screenshot](/assets/loja.png)
+![Screenshot](/assets/loja-2.png)
 
 ### Chatbot:
 <p align="center">
