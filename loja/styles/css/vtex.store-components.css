@@ -1,8 +1,21 @@
 .infoCardHeadline {
-  border: none;
-  font-family: Comfortaa, sans-serif;
-  color: #ffffff;
+    border: none;
+    font-family: Comfortaa, sans-serif;
+    color: #ffffff;
 }
 .infoCardContainer--infoFull {
-  height: 100%;
+    height: 100%;
+}
+.imageElementLink--logoMaior{
+    display: contents;
+}
+.infoCardCallActionText {
+    border: none;
+    font-family: Comfortaa, sans-serif;
+    color: #ffffff;
+    font-size: 3rem;
+}
+.infoCardCallActionContainer :global(.vtex-a) {
+    font-family: Comfortaa, sans-serif;
+    color: #ffffff;
 }

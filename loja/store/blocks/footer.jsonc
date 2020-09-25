@@ -12,15 +12,18 @@
         "flex-layout.row#footer"
       ]
     },
-    "flex-layout.row#footer": { 
+    "flex-layout.row#footer": {  
       "children": [
-        "image"
+        "footer-spacer", 
+        "image",
+        "footer-spacer"
       ]
     },
     "image": {
       "props": {
-        "minWidth": "20vw",
-        "src": "../assets/logo2.png"
+        "blockClass": "logoMaior",
+        "minWidth": "15vw", 
+        "src": "../assets/logo2.png"        
       }
     }
   }

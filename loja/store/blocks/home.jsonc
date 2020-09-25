@@ -21,16 +21,20 @@
       "marginLeft": 8,
       "height": "100vh"
     },
-    "children": ["info-card#swim"]
+    "children": [
+      "info-card#swim"
+    ]
   },
   "info-card#swim": {
     "props": {
       "imageUrl": "https://images.unsplash.com/photo-1519046904884-53103b34b206?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1050&q=80",
       "isFullModeStyle": true,
-      "headline": "swimwear",
+      "headline": "",
       "callToActionMode": "link",
+      "callToActionText": "swimwear",
+      "callToActionUrl": "/Clothes/Swimwear",
+      "linkTarget": "_self",
       "textPosition": "center",
-      "link": "/swimwear",
       "blockClass": "infoFull"
     }
   },
@@ -38,26 +42,33 @@
     "props": {
       "marginRight": 8
     },
-    "children": ["info-card#men", "info-card#women"]
+    "children": [
+      "info-card#men",
+      "info-card#women"
+    ]
   },
-  "info-card#men": {
+  "info-card#men":{
     "props": {
       "imageUrl": "https://images.unsplash.com/photo-1496346776741-7297b9e34825?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1050&q=80",
       "isFullModeStyle": true,
-      "headline": "men",
+      "headline": "",
       "callToActionMode": "link",
-      "textPosition": "center",
-      "link": "/men"
+      "callToActionText": "men",
+      "callToActionUrl": "/Clothes/Men",
+      "linkTarget": "_self",
+      "textPosition": "center"
     }
   },
-  "info-card#women": {
+  "info-card#women":{
     "props": {
       "imageUrl": "https://images.unsplash.com/photo-1496817763416-2f4494189b95?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=2032&q=80",
       "isFullModeStyle": true,
-      "headline": "women",
+      "headline": "",
       "callToActionMode": "link",
-      "textPosition": "center",
-      "link": "/women"
+      "callToActionText": "women",
+      "callToActionUrl": "/Clothes/Women",
+      "linkTarget": "_self",
+      "textPosition": "center"
     }
   },
   "flex-layout.row#secondmosaic": {
@@ -73,42 +84,53 @@
     "props": {
       "marginLeft": 8
     },
-    "children": ["info-card#extra", "info-card#accessories"]
+    "children": [
+      "info-card#extra",
+      "info-card#accessories"
+    ]
   },
-  "info-card#extra": {
+  "info-card#extra":{
     "props": {
       "imageUrl": "https://images.unsplash.com/photo-1496950866446-3253e1470e8e?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1050&q=80",
       "isFullModeStyle": true,
-      "headline": " ",
+      "headline": "",
       "callToActionMode": "link",
-      "textPosition": "center",
-      "link": "/extra"
+      "callToActionText": "casual",
+      "callToActionUrl": "/Clothes/Casual",
+      "linkTarget": "_self",
+      "textPosition": "center"
     }
   },
-  "info-card#accessories": {
+  "info-card#accessories":{
     "props": {
       "imageUrl": "https://images.unsplash.com/photo-1574271143515-5cddf8da19be?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=966&q=80",
       "isFullModeStyle": true,
-      "headline": "accessories",
+      "headline": "",
       "callToActionMode": "link",
-      "textPosition": "center",
-      "link": "/accessories"
+      "callToActionText": "accessories",
+      "callToActionUrl": "/Clothes/Accessories",
+      "linkTarget": "_self",
+      "textPosition": "center"
     }
   },
   "flex-layout.col#right2": {
     "props": {
       "marginRight": 8
-    },
-    "children": ["info-card#promwear"]
+    }, 
+    "children": [
+      "info-card#promwear"
+    ]
   },
-  "info-card#promwear": {
+  "info-card#promwear":{
     "props": {
       "imageUrl": "https://images.unsplash.com/photo-1447194537595-69d5dd826707?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1050&",
       "isFullModeStyle": true,
-      "headline": "promwear",
+      "headline": "",
       "callToActionMode": "link",
+      "callToActionText": "promwear",
+      "callToActionUrl": "/Clothes/Promwear",
+      "linkTarget": "_self",
       "textPosition": "center",
-      "link": "/promwear",
       "blockClass": "infoFull"
     }
   },

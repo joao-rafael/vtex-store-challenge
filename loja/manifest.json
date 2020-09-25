@@ -50,5 +50,9 @@
     "vtex.add-to-cart-button": "0.x",
     "vtex.sandbox": "0.x"
   },
+  "peerDependencies": {
+    "vtex.countdown": "0.x",
+    "hiringcoders10.potatoeschatbot": "0.x"
+  },
   "$schema": "https://raw.githubusercontent.com/vtex/node-vtex-api/master/gen/manifest.schema"
 }
