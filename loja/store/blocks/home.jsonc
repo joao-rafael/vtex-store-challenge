@@ -14,10 +14,7 @@
       "marginTop": 4,
       "height": "50vh"
     },
-    "children": [
-      "flex-layout.col#left1",
-      "flex-layout.col#right1"
-    ]
+    "children": ["flex-layout.col#left1", "flex-layout.col#right1"]
   },
   "flex-layout.col#left1": {
     "props": {
@@ -81,10 +78,7 @@
       "marginBottom": 6,
       "height": "50vh"
     },
-    "children": [
-      "flex-layout.col#left2",
-      "flex-layout.col#right2"
-    ]
+    "children": ["flex-layout.col#left2", "flex-layout.col#right2"]
   },
   "flex-layout.col#left2": {
     "props": {
